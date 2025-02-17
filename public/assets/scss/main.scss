@@ -8450,6 +8450,12 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
   padding-left: 70px;
 }
 
+@media (max-width: 767px) {
+  .footer_qlink_widget {
+    display: none;
+  }
+}
+
 .footer_about_widget h4,
 .footer_qlink_widget h4,
 .footer_contact_widget h4,

@@ -10,7 +10,7 @@ const Footer = () => {
           <h4>Nova Summer Meadows</h4>
           <p>
           Positioned at 433 Hebron Road, this development is just minutes 
-          from Duke University Hospital—one of the top-rated hospitals in North Carolina—and Duke University.
+          from Duke University Hospital one of the top rated hospitals in North Carolina and Duke University.
           </p>
         </div>
       </div>
@@ -21,22 +21,22 @@ const Footer = () => {
           <h4>Quick Links</h4>
           <ul className="list-unstyled">
             <li>
-              <Link to="/">About Us</Link>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/">Neighborhood</Link>
-            </li>
-            <li>
-              <Link to="/">Amenities</Link>
-            </li>
+              <Link to="/neighborhood">Neighborhood</Link>
+            </li> 
             <li>
               <Link to="/">Floor Plans</Link>
             </li>
             <li>
-              <Link to="/">FAQ</Link>
+              <Link to="/gallery">Gallery</Link>
             </li>
             <li>
-              <Link to="/">Contact</Link>
+              <Link to="/faq">FAQ</Link>
+            </li>
+            <li>
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
         </div>
