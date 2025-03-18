@@ -32,7 +32,7 @@ const index = () => {
       <Hero />
 
       {/* <!-- Why Chose Us --> */}
-      <section id="why-chose" className="whychose_us pb30">
+      {/* <section id="why-chose" className="whychose_us pb30">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 offset-lg-3">
@@ -44,6 +44,23 @@ const index = () => {
           </div>
           <div className="row">
             <WhyChoose />
+          </div>
+        </div> 
+      </section> */}
+
+      {/* <!-- Property Cities --> */}
+      <section id="property-city" className="property-city pb30">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6 offset-lg-3">
+              <div className="main-title text-center">
+                <h2>Location Overview</h2>
+                <p>Durham, North Carolina: A Nexus of Innovation and Lifestyle.</p>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <FindProperties />
           </div>
         </div>
       </section>
@@ -66,24 +83,7 @@ const index = () => {
           </div>
           {/* End .row */}
         </div>
-      </section>
-
-      {/* <!-- Property Cities --> */}
-      <section id="property-city" className="property-city pb30">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-6 offset-lg-3">
-              <div className="main-title text-center">
-                <h2>Location Overview</h2>
-                <p>Durham, North Carolina: A Nexus of Innovation and Lifestyle.</p>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <FindProperties />
-          </div>
-        </div>
-      </section>
+      </section> 
 
       {/* <!-- Our Hot Offier --> */}
 
